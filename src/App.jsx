@@ -8,13 +8,14 @@ import RecipeInstructions from "./Components/RecipeInstructions";
 import HomePage from "./Components/Homepage";
 import { Link } from "react-router-dom";
 import Categories from "./Components/Categories";
-import Deserts from "./Components/Deserts";
+import Desserts from "./Components/Desserts";
 import Main_Dish from "./Components/Main_Dish";
+import Starters from "./Components/Starters";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
 
-  const myAPI = "http://localhost:8000/recipes/";
+  const myAPI = "http://localhost:8001/recipes/";
 
   const getData = async () => {
     const res = await fetch(myAPI);
@@ -39,10 +40,10 @@ function App() {
         <Route path="/categories" element={<Categories recipes={recipes} />} />
         <Route
           path="/categories/:category"
-          element={<Deserts recipes={recipes} />}
+          element={<Desserts recipes={recipes} />}
         />
         <Route
-          path="deserts/:id"
+          path="desserts/:id"
           element={<RecipeInstructions recipes={recipes} />}
         />
         <Route path="mainDish" element={<Main_Dish recipes={recipes} />} />
@@ -51,6 +52,9 @@ function App() {
           path="mainDish/:id"
           element={<RecipeInstructions recipes={recipes} />}
         />
+        <Route path="/starters" element={<Starters recipes={recipes} />} />
+        <Route path="/mainDish" element={<Main_Dish recipes={recipes} />} />
+        <Route path="/desserts" element={<Desserts recipes={recipes} />} />
       </Routes>
       {/*      {recipes.map((recipe) => ( */}
       <>

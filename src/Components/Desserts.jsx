@@ -3,21 +3,21 @@ import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
 
-export default function Main_Dish({ recipes }) {
+export default function Desserts({ recipes }) {
   const { category } = useParams();
   const navigate = useNavigate();
 
-  const mainRecipes = recipes.filter(
-    (recipe) => recipe.category === "main dish"
+  const dessertRecipes = recipes.filter(
+    (recipe) => recipe.category === "dessert"
   );
 
-  console.log("MAIN RECIPES:", mainRecipes);
+  console.log("DESSERT RECIPES:", dessertRecipes);
 
   return (
     <>
       <div className="singleMember">
         <Navbar />
-        {mainRecipes.map((recipe, index) => (
+        {dessertRecipes.map((recipe, index) => (
           <div key={index}>
             <h3 className="rec-title">{recipe.recipe_name}</h3>
             <h5 className="category-s">Category: {recipe.category}</h5>

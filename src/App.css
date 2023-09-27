@@ -5,6 +5,12 @@
   flex-wrap: wrap;
 }
 
+.category-option-div button {
+  margin-top: 100px;
+  margin-left: 200px;
+  border: 2px solid rgb(197, 81, 81);
+}
+
 .newdiv {
   background-color: #d98a52;
 }
@@ -52,6 +58,10 @@
   align-items: center;
 }
 
+.category-option-div {
+  width: 100vw;
+}
+
 .singlerecipe p {
   padding: 3%;
   margin-left: 5%;
@@ -87,14 +97,14 @@
   text-align: center;
 }
 .rec-img {
-  margin: 60px;
+  margin-left: 30px;
 }
 .rec-title {
   font-size: x-large;
 }
 
 .singleMember img {
-  width: 300px;
+  width: 40%;
   height: 300px;
   border: 2px solid black;
   border-radius: 5px;
@@ -243,6 +253,15 @@ body {
   transition: ease 0.3s;
   font-weight: bold;
 }
+.category-button {
+  border: 2px solid rgb(197, 81, 81);
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: ease 0.3s;
+  font-weight: bold;
+  margin-left: 20%;
+}
+
 .johnButton:hover {
   background-color: #dc8e81;
   color: white;

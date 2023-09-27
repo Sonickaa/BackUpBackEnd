@@ -9,7 +9,7 @@ export default function RecipeCards({ recipes }) {
     <div className="newdiv">
       <Navbar />
       <div className="recipeside">
-        {/*   {recipes.filter((filtered) => filtered.includes("desert"))} */}
+        {/*   {recipes.filter((filtered) => filtered.includes("dessert"))} */}
         {recipes &&
           recipes.map((recipe) => (
             <div className="recipecard" key={recipe.recipe_id}>
