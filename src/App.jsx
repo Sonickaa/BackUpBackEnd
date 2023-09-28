@@ -5,7 +5,7 @@ import "./App.css";
 /* import { createClient } from "contentful"; */
 import RecipeCards from "./Components/RecipeCards";
 import RecipeInstructions from "./Components/RecipeInstructions";
-import HomePage from "./Components/Homepage";
+import HomePage from "./Components/HomePage";
 import { Link } from "react-router-dom";
 import Categories from "./Components/Categories";
 import Desserts from "./Components/Desserts";
