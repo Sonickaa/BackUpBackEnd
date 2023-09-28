@@ -3,9 +3,9 @@ import Navbar from "./Navbar";
 
 export default function Categories({ recipes }) {
   return (
-    <div>
-      <Navbar />
-      <div>
+    <>
+      <div className="randomName">
+        <Navbar />
         <div className="category-option-div">
           <NavLink to="/starters">
             <button className="category-option">Starter</button>
@@ -22,6 +22,6 @@ export default function Categories({ recipes }) {
           </NavLink>
         </div>
       </div>
-    </div>
+    </>
   );
 }

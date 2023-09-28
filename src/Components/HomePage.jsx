@@ -21,8 +21,6 @@ export default function HomePage() {
           <NavLink to="/recipecards">
             <button className="johnButton">Start Cookin'</button>
           </NavLink>
-        </div>
-        <div className="cat-butt-div">
           <NavLink to="/categories">
             <button className="category-button">Categories</button>
           </NavLink>

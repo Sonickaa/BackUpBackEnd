@@ -8,7 +8,6 @@ export default function RecipeInstructions({ recipes }) {
   // Convert recipes to an array if it's not already
   const recipesArray = Array.isArray(recipes) ? recipes : [];
 
-  // Find the recipe with the matching recipe_id
   const oneRecipe = recipesArray.find(
     (recipe) => recipe.recipe_id === Number(id)
   );

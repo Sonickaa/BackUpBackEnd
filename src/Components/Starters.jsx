@@ -23,6 +23,7 @@ export default function Starters({ recipes }) {
             <h5 className="category-s">Category: {recipe.category}</h5>
             <div className="singlerecipe">
               <img className="rec-img" src={recipe.image_url} alt="Recipe" />
+
               <p>
                 <b>Ingredients:</b>
                 <br />
