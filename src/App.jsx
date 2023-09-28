@@ -15,7 +15,8 @@ import Starters from "./Components/Starters";
 function App() {
   const [recipes, setRecipes] = useState([]);
 
-  const myAPI = "http://localhost:8001/recipes/";
+  const myLocalApi = "http://localhost:8001/recipes/";
+  const myAPI = "https://cookbook-postgresql.onrender.com/recipes";
 
   const getData = async () => {
     const res = await fetch(myAPI);

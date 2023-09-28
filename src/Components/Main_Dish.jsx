@@ -45,8 +45,8 @@ export default function Main_Dish({ recipes }) {
                   </span>
                 ))}
               </p>
-              <button onClick={() => navigate("/RecipeCards")}>
-                Back to Recipes
+              <button onClick={() => navigate("/Categories")}>
+                Back to Categories
               </button>
             </div>
           </div>
