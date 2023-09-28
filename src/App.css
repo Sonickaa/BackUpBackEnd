@@ -1,0 +1,306 @@
+/* Sonia */
+.body {
+  margin: 0;
+}
+
+.recipeside {
+  background-color: #242424;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-option-div button {
+  margin-top: 100px;
+  margin-left: 200px;
+  border: 2px solid rgb(197, 81, 81);
+}
+
+.newdiv {
+  background-color: #d98a52;
+}
+
+.recipecard {
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid rgb(197, 81, 81);
+  border-radius: 10px;
+  width: 20vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.recipecard:hover {
+  transform: scale(1.09);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title-s {
+  color: rgb(60, 49, 49);
+  font-size: 1.8rem;
+}
+
+.title-s:hover {
+  color: #dc8e81;
+}
+
+.link-s {
+  text-decoration: none;
+}
+
+.img-s {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.singlerecipe {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.category-option-div {
+  width: 100vw;
+}
+
+.singlerecipe p {
+  padding: 3%;
+  margin-left: 5%;
+}
+.singleMember {
+  width: 100vw;
+  color: white;
+  /* margin: 5%; */
+  height: auto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.rec-instructions {
+  margin: 60px;
+}
+.rec-ingred-title {
+  font-weight: bold;
+}
+.instruct {
+  margin: 20px;
+  border: 2px solid #242424;
+}
+
+.rec-instr-title {
+  margin: 40px;
+  font-weight: bold;
+}
+
+.category-s {
+  text-align: center;
+}
+.rec-img {
+  margin-left: 30px;
+}
+.rec-title {
+  font-size: x-large;
+}
+
+.singleMember img {
+  width: 40%;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.singleMember h3 {
+  justify-content: center;
+  text-align: center;
+  background-color: #d98a52;
+  color: black;
+  border: 2px solid rgb(197, 81, 81);
+  padding: 3px;
+}
+.singleMember button {
+  padding: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 20px;
+  margin-left: 40%;
+  width: 25%;
+  cursor: pointer;
+  background-color: #d98a52;
+  color: black;
+  border: 2px solid rgb(197, 81, 81);
+}
+
+/* John */
+body {
+  margin: 0;
+  padding: 0;
+}
+.johnLogo {
+  width: 50px;
+  margin-top: 5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.johnTitle {
+  color: white;
+}
+.johnLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 30%;
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.3s ease;
+  text-align: center;
+}
+.johnEverything {
+  background-image: url("./assets/COOKbackground.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.JtitleLink {
+  margin-left: 5%;
+  text-decoration: none;
+}
+.JtitleLink :hover {
+  transition: 0.3s ease;
+  color: black;
+  transform: scale(1.2);
+  background-color: #dc8e81;
+  border-radius: 20px;
+}
+.johnLink:hover {
+  background-color: #dc8e81;
+}
+.randomName {
+  height: 100vh;
+  background-image: url("./assets/COOKbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.randomName img {
+  overflow: hidden;
+}
+
+.JohnBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 10vh;
+  border: 2px solid rgb(197, 81, 81);
+}
+.frontTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+
+.johnUl {
+  list-style: none;
+}
+.johnP {
+  align-items: center;
+  text-align: center;
+  color: white;
+  height: 50%;
+  width: 27%;
+  border-bottom: solid white 10px;
+  border-left: solid white 10px;
+  border-right: solid white 10px;
+  border-radius: 20px;
+}
+.johnH1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 30%;
+  border-bottom: solid white 10px;
+  border-radius: 20px;
+  transform: rotate(345deg);
+  margin-bottom: 4%;
+  margin-left: -1%;
+}
+.johnSearch {
+  margin-right: 5vw;
+  transition: 0.3s;
+  width: 30%;
+  border: none;
+}
+.johnSearch:focus {
+  outline: none;
+  width: 2;
+  height: 2;
+  border: 5px solid rgb(197, 81, 81);
+}
+.buttonDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 7vh;
+  text-align: center;
+}
+.johnButton {
+  width: auto;
+  margin-top: 2%;
+  height: 100%;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgb(197, 81, 81);
+  transition: ease 0.3s;
+  font-weight: bold;
+}
+.category-button {
+  margin-top: 3%;
+  border: 2px solid rgb(197, 81, 81);
+  height: 85%;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: ease 0.3s;
+  font-weight: bold;
+}
+
+.johnButton:hover {
+  background-color: #dc8e81;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.johnRight {
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.johnLeft {
+  display: flex;
+  margin-left: 5%;
+  width: 50%;
+}
+.johnNav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: 5%;
+}
