@@ -9,10 +9,28 @@
   flex-wrap: wrap;
 }
 
-.category-option-div button {
+/* .category-option-div button {
   margin-top: 100px;
   margin-left: 200px;
   border: 2px solid rgb(197, 81, 81);
+} */
+
+.category-option-div {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  justify-content: space-between; /* Centers items vertically */
+  max-height: 100vh; /* Makes the container take the full viewport height */
+}
+
+.category-option-div button {
+  width: 80%;
+  margin: 70px; /* Add some spacing between buttons */
+  margin-top: 100px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(197, 81, 81);
+  padding: 10px 20px; /* Add padding to buttons for better appearance */
 }
 
 .newdiv {
@@ -62,9 +80,9 @@
   align-items: center;
 }
 
-.category-option-div {
+/* .category-option-div {
   width: 100vw;
-}
+} */
 
 .singlerecipe p {
   padding: 3%;
@@ -151,7 +169,10 @@ body {
   padding: 0;
 }
 .johnTitle {
-  color: white;
+  color: black;
+}
+.johnLi {
+  color: rgb(44, 44, 44);
 }
 .johnLink {
   display: flex;
@@ -160,7 +181,7 @@ body {
   background-color: white;
   border-radius: 20px;
   width: 30%;
-  color: black;
+  color: rgb(39, 39, 39);
   text-decoration: none;
   font-size: larger;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -190,6 +211,7 @@ body {
   background-color: #dc8e81;
 }
 .randomName {
+  overflow: hidden;
   height: 100vh;
   background-image: url("./assets/COOKbackground.jpg");
   background-repeat: no-repeat;
@@ -224,7 +246,7 @@ body {
 .johnP {
   align-items: center;
   text-align: center;
-  color: white;
+  color: rgb(44, 44, 44);
   height: 50%;
   width: 27%;
   border-bottom: solid white 10px;
@@ -236,7 +258,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(45, 44, 44);
   width: 30%;
   border-bottom: solid white 10px;
   border-radius: 20px;
@@ -264,6 +286,8 @@ body {
   text-align: center;
 }
 .johnButton {
+  font-size: large;
+  color: black;
   width: auto;
   margin-top: 2%;
   height: 100%;
@@ -274,6 +298,8 @@ body {
   font-weight: bold;
 }
 .category-button {
+  font-size: large;
+  color: black;
   margin-top: 3%;
   border: 2px solid rgb(197, 81, 81);
   height: 85%;
